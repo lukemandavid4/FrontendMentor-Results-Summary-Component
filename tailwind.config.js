@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{html,js,jsx,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -17,7 +17,7 @@ export default {
         slateBlue: "hsl(252, 100%, 67%)",
         royalBlue: "hsl(241, 81%, 54%)",
         violetBlue: "hsla(256, 72%, 46%, 1)",
-        persianBlue: "hsla(241, 72%, 46%, 0)",
+        persianBlue: "hsla(241, 72%, 46%, 1)",
       },
     },
   },
