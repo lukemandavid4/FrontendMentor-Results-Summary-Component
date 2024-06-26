@@ -16,8 +16,8 @@ export default {
       backgroundColor: {
         slateBlue: "hsl(252, 100%, 67%)",
         royalBlue: "hsl(241, 81%, 54%)",
-        violetBlue: "hsla(256, 72%, 46%, 1)",
-        persianBlue: "hsla(241, 72%, 46%, 1)",
+        violetBlue: "hsl(256, 72%, 46%)",
+        persianBlue: "hsl(241, 72%, 46%)",
       },
     },
   },
