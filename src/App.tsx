@@ -6,12 +6,12 @@ import Visual from "./assets/icon-visual.svg";
 const App = () => {
   return (
     <>
-      <div className="flex w-[30rem] overflow-hidden rounded-2xl">
-        <div className="bg-[linear-gradient(royalBlue,_slateBlue)] flex flex-col items-center p-[1rem] w-[50%] gap-[1rem] rounded-2xl">
+      <div className="flex flex-col md:flex-row w-[15.5rem] md:w-[30rem] rounded-2xl shadow-md">
+        <div className="bg-[linear-gradient(royalBlue,_slateBlue)] flex flex-col items-center p-[1rem] md:w-[50%] gap-[1rem] rounded-2xl">
           <h6 className="text-center text-lightLavender font-semibold">
             Your Result
           </h6>
-          <div className="size-[6rem] bg-[linear-gradient(persianBlue,_violetBlue)] rounded-[50% flex flex-col items-center justify-center">
+          <div className="size-[6rem] bg-[linear-gradient(persianBlue,_violetBlue)] rounded-[50%] flex flex-col items-center justify-center">
             <span className="text-[3rem] text-primaryWhite font-bold">76</span>
             <span className="text-lightLavender text-[0.9rem]">of 100</span>
           </div>
@@ -20,7 +20,7 @@ const App = () => {
             You scored higher than 65% of the people who have taken these tests.
           </p>
         </div>
-        <div className="w-[50%] flex flex-col items-center gap-[0.5rem] p-[1rem] [box-shadow:1px_1px_1px_#000000]">
+        <div className="md:w-[50%] flex flex-col items-center gap-[0.5rem] p-[1rem]">
           <h6 className="text-grayBlue font-bold self-start">Summary</h6>
           <div className="flex justify-between w-[100%]  bg-[hsla(0,_100%,_67%,_0.1)] p-[0.5rem] items-center rounded-lg">
             <div className="flex gap-[0.3rem]">
