@@ -6,7 +6,7 @@ import Visual from "./assets/icon-visual.svg";
 const App = () => {
   return (
     <>
-      <div className="flex w-[30rem] overflow-hidden">
+      <div className="flex w-[30rem] overflow-hidden rounded-2xl">
         <div className="bg-[linear-gradient(royalBlue,_slateBlue)] flex flex-col items-center p-[1rem] w-[50%] gap-[1rem] rounded-2xl">
           <h6 className="text-center text-lightLavender font-semibold">
             Your Result
@@ -20,7 +20,7 @@ const App = () => {
             You scored higher than 65% of the people who have taken these tests.
           </p>
         </div>
-        <div className="w-[50%] flex flex-col items-center gap-[0.5rem] p-[1rem] shadow-2xl">
+        <div className="w-[50%] flex flex-col items-center gap-[0.5rem] p-[1rem] [box-shadow:1px_1px_1px_#000000]">
           <h6 className="text-grayBlue font-bold self-start">Summary</h6>
           <div className="flex justify-between w-[100%]  bg-[hsla(0,_100%,_67%,_0.1)] p-[0.5rem] items-center rounded-lg">
             <div className="flex gap-[0.3rem]">
